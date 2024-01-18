@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T11:35:37.891Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UQt7d06iK3b4Cyzy2sAZ" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T11:49:20.271Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jfu_jVY12cliL6HYkIrv" version="22.1.18" type="github">
   <diagram name="第 1 页" id="i914FHpeJPNcTL2XtYZu">
-    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="449" grid="1" gridSize="12" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JDxRWWW_5rojaJwtR__j-4" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=4;" parent="1" vertex="1">
-          <mxGeometry x="160" y="140" width="690" height="292" as="geometry" />
+          <mxGeometry x="160" y="140" width="728" height="316" as="geometry" />
         </mxCell>
         <mxCell id="JDxRWWW_5rojaJwtR__j-3" value="Namespace" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="110" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JDxRWWW_5rojaJwtR__j-6" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;strokeWidth=1;fillOpacity=100;" parent="1" vertex="1">
-          <mxGeometry x="187.5" y="254" width="635" height="114" as="geometry" />
+          <mxGeometry x="192" y="254" width="635" height="114" as="geometry" />
         </mxCell>
         <mxCell id="JDxRWWW_5rojaJwtR__j-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="JDxRWWW_5rojaJwtR__j-6" vertex="1">
           <mxGeometry width="635" height="34" as="geometry" />
@@ -91,8 +91,17 @@
         <mxCell id="JDxRWWW_5rojaJwtR__j-45" value="Table：user_info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="224" width="142" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dNySnKPYC7gDF0Vzpgyb-1" value="列族中的列可按需动态添加或移除，不同行的同一列族的列也无需一致" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="492" y="384" width="240" height="30" as="geometry" />
+        <mxCell id="dNySnKPYC7gDF0Vzpgyb-1" value="&lt;font color=&quot;#000000&quot;&gt;列族中的列可按需动态添加或移除，不同行的同一列族的列也无需一致&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="480" y="165" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dNySnKPYC7gDF0Vzpgyb-5" value="&lt;font color=&quot;#ff0000&quot;&gt;列限定符&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="399" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dNySnKPYC7gDF0Vzpgyb-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="dNySnKPYC7gDF0Vzpgyb-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="442" y="360" as="sourcePoint" />
+            <mxPoint x="432" y="396" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
