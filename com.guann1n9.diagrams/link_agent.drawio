@@ -112,7 +112,10 @@
           <mxGeometry x="1210" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6SYbwh5iBH1BAqZjLgfn-49" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;URLClassLoader,&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;允许从多种来源动态加载类和资源&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;* 类加载隔离：不同URLClassLoader加载的类是不同的&lt;br&gt;* 资源释放： URLClassLoader不会自动关闭，需手动调用closs()&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="280" width="340" height="80" as="geometry" />
+          <mxGeometry x="560" y="280" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-50" value="&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;为减少对应用启动时间的影响，探针一般采用延时启动策略，通过reTransformer完成对class的增强，但部分功能需要增强某些业务类的构造方法，所以需要通过同步启动一些模块，确保功能&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="460" width="371" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
