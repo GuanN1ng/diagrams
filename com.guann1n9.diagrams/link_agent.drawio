@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="第 1 页" id="cuuhZO4sGBkkfmhWdIKt">
-    <mxGraphModel>
+    <mxGraphModel dx="2603" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6SYbwh5iBH1BAqZjLgfn-1" target="6SYbwh5iBH1BAqZjLgfn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-1" value="simulator-launcher-instrument.jar&amp;nbsp;&lt;br&gt;premain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="160" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="6SYbwh5iBH1BAqZjLgfn-3" target="6SYbwh5iBH1BAqZjLgfn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-9" value="invoke" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6SYbwh5iBH1BAqZjLgfn-8">
+          <mxGeometry x="0.056" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="6SYbwh5iBH1BAqZjLgfn-3" target="6SYbwh5iBH1BAqZjLgfn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-11" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6SYbwh5iBH1BAqZjLgfn-10">
+          <mxGeometry x="-0.2622" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-3" value="AgentClassLoader&lt;br&gt;load simulator-agent-core.jar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-4" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;URLClassLoader,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;允许从多种来源动态加载类和资源&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;* 类加载隔离：不同URLClassLoader加载的类是不同的&lt;br&gt;* 资源释放： URLClassLoader不会自动关闭，需手动调用closs()&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="250" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6SYbwh5iBH1BAqZjLgfn-7" target="6SYbwh5iBH1BAqZjLgfn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-18" value="delay start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6SYbwh5iBH1BAqZjLgfn-17">
+          <mxGeometry x="-0.0889" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-7" value="CoreLauncher&lt;br&gt;读取配置文件并初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-13" value="AgentLauncher&lt;br&gt;处理命令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6SYbwh5iBH1BAqZjLgfn-14" target="6SYbwh5iBH1BAqZjLgfn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-16" value="execute" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6SYbwh5iBH1BAqZjLgfn-15">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-14" value="AgentScheduler&lt;br&gt;定时拉取及调度命令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
