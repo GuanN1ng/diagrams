@@ -21,9 +21,6 @@
         <mxCell id="6SYbwh5iBH1BAqZjLgfn-3" value="Agent(URL)ClassLoader&lt;br&gt;load simulator-agent-core.jar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="160" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6SYbwh5iBH1BAqZjLgfn-4" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;URLClassLoader,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;允许从多种来源动态加载类和资源&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;* 类加载隔离：不同URLClassLoader加载的类是不同的&lt;br&gt;* 资源释放： URLClassLoader不会自动关闭，需手动调用closs()&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="540" y="230" width="360" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="6SYbwh5iBH1BAqZjLgfn-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6SYbwh5iBH1BAqZjLgfn-7" target="6SYbwh5iBH1BAqZjLgfn-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -91,11 +88,31 @@
         <mxCell id="6SYbwh5iBH1BAqZjLgfn-33" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;com.shulie.instrument.simulator&lt;/font&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.agent.core&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="315" y="460" width="210" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6SYbwh5iBH1BAqZjLgfn-35" target="6SYbwh5iBH1BAqZjLgfn-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6SYbwh5iBH1BAqZjLgfn-35" value="AgentLauncher&lt;br&gt;启动探针完成增强" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="915" y="660" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6SYbwh5iBH1BAqZjLgfn-37" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;com.shulie.instrument.simulator&lt;/font&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.agent&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="880" y="630" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6SYbwh5iBH1BAqZjLgfn-43" target="6SYbwh5iBH1BAqZjLgfn-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-48" value="invoke &lt;br&gt;prepareSyncModule(启动前加载同步模块)&lt;br&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;or&amp;nbsp;&lt;br&gt;bind(启动)&amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6SYbwh5iBH1BAqZjLgfn-47">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-43" value="Simulator(URL)ClassLoader&lt;br&gt;load&amp;nbsp; simulator-agent/agent/simulator/lib/instrument-simulator-core.jar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="640" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-46" value="ProxyCoreServer&lt;br&gt;(JettyCoreServer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-49" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;URLClassLoader,&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;允许从多种来源动态加载类和资源&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;* 类加载隔离：不同URLClassLoader加载的类是不同的&lt;br&gt;* 资源释放： URLClassLoader不会自动关闭，需手动调用closs()&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="340" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
