@@ -133,8 +133,8 @@
         <mxCell id="6SYbwh5iBH1BAqZjLgfn-50" value="&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;为减少对应用启动时间的影响，探针一般采用延时启动策略，通过reTransformer完成对class的增强，但部分功能需要增强某些业务类的构造方法，所以需要通过同步启动一些模块，确保功能&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1084.5" y="500" width="371" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6SYbwh5iBH1BAqZjLgfn-51" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;Simulator&lt;br/&gt;(syncModuleSimulator)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1000" width="175" height="50" as="geometry" />
+        <mxCell id="6SYbwh5iBH1BAqZjLgfn-51" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;Simulator&lt;br&gt;(SyncModuleCoreModuleManager)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1000" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6SYbwh5iBH1BAqZjLgfn-53" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;Simulator&lt;br&gt;(simulator)&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="1000" width="175" height="50" as="geometry" />
