@@ -263,10 +263,13 @@
         <mxCell id="EA3H9a7Re5yyV5uBfJws-38" value="&lt;pre style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 153);&quot; face=&quot;Verdana&quot;&gt;所有模块的实现都遵循JDK6的SPI规范，将模块实现类全路径写入&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 153);&quot; face=&quot;Verdana&quot;&gt;META-INF/services/com.shulie.instrument.simulator.api.ExtensionModule&lt;br/&gt;文件中&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1395" y="1355" width="490" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="EA3H9a7Re5yyV5uBfJws-39" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;ExtensionModule&lt;br&gt;（模块实现类）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EA3H9a7Re5yyV5uBfJws-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EA3H9a7Re5yyV5uBfJws-39" target="EA3H9a7Re5yyV5uBfJws-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EA3H9a7Re5yyV5uBfJws-39" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;ExtensionModule&lt;br&gt;（模块对象）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1195" y="1475" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EA3H9a7Re5yyV5uBfJws-54" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;CoreModule&lt;br&gt;（模块实现类）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EA3H9a7Re5yyV5uBfJws-54" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;CoreModule&lt;br&gt;（模块业务对象）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1195" y="1570" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
